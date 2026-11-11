@@ -1,0 +1,81 @@
+/* src/styles/quotation.css */
+
+/* Editor area */
+.quotation-page {
+  display: flex;
+  gap: 24px;
+  padding: 18px;
+  align-items: flex-start;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+/* left: editor */
+.quotation-editor {
+  width: 420px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 8px 28px rgba(8, 15, 30, 0.06);
+}
+
+/* inputs */
+.quotation-editor h2 { margin-top: 0; }
+.meta-row { display:flex; gap:8px; align-items:center; margin-bottom:8px; flex-wrap:wrap; }
+.meta-row.full { flex-direction: column; }
+.meta-row label { width: 80px; font-weight:600; }
+.meta-row input, .meta-row textarea, .items-top select { flex:1; padding:6px 8px; border:1px solid #ddd; border-radius:6px; }
+.meta-row textarea { height:60px; resize:vertical; }
+
+/* items */
+.items-box { margin-top: 12px; }
+.items-top { display:flex; gap:8px; margin-bottom:8px; }
+.items-table { width:100%; border-collapse:collapse; font-size:13px; }
+.items-table th, .items-table td { border:1px solid #e6e6e6; padding:8px; text-align:center; }
+.item-name { font-weight:700; }
+.item-desc { font-size:12px; color:#555; margin-top:4px; }
+
+/* actions */
+.items-actions { display:flex; gap:8px; align-items:center; margin-top:12px; }
+.btn { padding:8px 10px; border-radius:6px; border: none; background:#eee; cursor:pointer; }
+.btn.primary { background:#0288D1; color:#fff; }
+.btn.generate { background:#008000; color:#fff; padding:10px 14px; border-radius:8px; }
+.btn.small { padding:6px 8px; font-size:13px; }
+.btn.danger { background:#ff4d4d; color:#fff; }
+
+/* right: print area (A4) */
+.quotation-print { flex: 1; display:flex; justify-content:center; }
+.q-a4 { width: 210mm; /* exact A4 width */ margin: 0 auto; }
+.q-page { background: white; padding: 12mm; box-sizing: border-box; margin-bottom: 8mm; }
+
+/* header */
+.q-letterhead { width: 100%; object-fit: contain; height: auto; }
+
+/* title + meta */
+.q-title-row { display:flex; justify-content:space-between; gap:12px; margin-top:10px; }
+.q-title-row h1 { margin: 0; font-size:20px; color:#b91c1c; }
+.q-note { margin-top:12px; font-size:13px; }
+
+/* table */
+.q-table { width:100%; border-collapse: collapse; margin-top:12px; font-size:13px; }
+.q-table th { background:#f3f6fb; padding:8px; border:1px solid #ccc; font-weight:700; }
+.q-table td { padding:8px; border:1px solid #ccc; }
+
+/* totals */
+.q-totals { margin-top:12px; text-align:right; font-weight:600; }
+.amount-words { margin-top:8px; font-weight:600; }
+
+/* signatures area */
+.q-sign { display:flex; justify-content:space-between; margin-top:20px; gap:12px; }
+.sign-title { font-weight:700; }
+.sign-sub { margin-top:6px; color:#555; }
+
+
+/* Terms list styling */
+.terms-list { font-size:13px; line-height:1.5; margin-top:8px; }
+
+/* responsive small screens */
+@media (max-width: 1000px) {
+  .quotation-page { flex-direction: column; }
+  .quotation-editor { width: 100%; }
+  .quotation-print { width: 100%; }
+}

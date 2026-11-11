@@ -1,0 +1,109 @@
+/* ===== BACKGROUND ===== */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #0e2a52, #000814);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== CARD ===== */
+.login-card {
+  background: #101820;
+  padding: 40px 42px;
+  border-radius: 18px;
+  width: 420px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+  border-top: 4px solid #d4a017; /* GOLD STRIP */
+}
+
+/* ===== LOGO ===== */
+.login-logo {
+  width: 120px;
+  margin-bottom: 18px;
+}
+
+/* ===== TITLE ===== */
+.login-card h2 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  font-size: 13px;
+  margin-bottom: 26px;
+  color: #d4a017;
+  letter-spacing: 1px;
+}
+
+/* ===== INPUTS ===== */
+.input-group {
+  text-align: left;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.input-group label {
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 11px 12px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 6px;
+  font-size: 14px;
+  background: #1e293b;
+  color: white;
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #94a3b8;
+}
+
+.input-group input:focus {
+  box-shadow: 0 0 0 2px #d4a017;
+}
+
+/* ===== BUTTON ===== */
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #f4c430, #d4a017);
+  border: none;
+  border-radius: 8px;
+  color: #0a0f1f;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-login:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(212, 160, 23, 0.45);
+}
+
+/* ===== ERROR ===== */
+.error-text {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-top: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* OPTIONAL SUCCESS */
+.success-text {
+  color: #2ecc71;
+  font-size: 14px;
+  margin-top: 6px;
+}

@@ -1,0 +1,33 @@
+export const attendanceData = [
+  { empId: "202501", totalPresent: 26, otTotal: 12 },
+  { empId: "202502", totalPresent: 22, otTotal: 8 },
+  { empId: "202503", totalPresent: 25, otTotal: 15 },
+  { empId: "202504", totalPresent: 24, otTotal: 10 },
+  { empId: "202505", totalPresent: 26, otTotal: 5 },
+  { empId: "202506", totalPresent: 27, otTotal: 9 },
+  { empId: "202507", totalPresent: 20, otTotal: 7 },
+  { empId: "202508", totalPresent: 23, otTotal: 11 },
+  { empId: "202509", totalPresent: 26, otTotal: 6 },
+  { empId: "202510", totalPresent: 24, otTotal: 4 },
+
+  // Added missing employees ↓↓↓
+  { empId: "202515", totalPresent: 25, otTotal: 10 },
+  { empId: "202517", totalPresent: 26, otTotal: 12 },
+  { empId: "202519", totalPresent: 23, otTotal: 8 },
+  { empId: "202520", totalPresent: 24, otTotal: 9 },
+  { empId: "202521", totalPresent: 26, otTotal: 6 },
+  { empId: "202523", totalPresent: 25, otTotal: 7 },
+  { empId: "202524", totalPresent: 24, otTotal: 5 },
+  { empId: "202525", totalPresent: 22, otTotal: 4 },
+  { empId: "202526", totalPresent: 23, otTotal: 9 },
+  { empId: "202527", totalPresent: 21, otTotal: 5 },
+  { empId: "202528", totalPresent: 26, otTotal: 10 },
+  { empId: "202529", totalPresent: 25, otTotal: 8 },
+  { empId: "202530", totalPresent: 24, otTotal: 7 },
+  { empId: "202531", totalPresent: 22, otTotal: 5 },
+  { empId: "202532", totalPresent: 23, otTotal: 6 },
+  { empId: "202533", totalPresent: 27, otTotal: 11 },
+  { empId: "202534", totalPresent: 26, otTotal: 10 },
+  { empId: "202535", totalPresent: 25, otTotal: 9 },
+  { empId: "202536", totalPresent: 23, otTotal: 7 }
+];

@@ -1,0 +1,6 @@
+/* index.css */
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+/* small defaults */
+body { margin:0; font-family: Inter, system-ui, Arial, sans-serif; background:#f6f8fa; color:#111; }
+button { cursor:pointer; }
